@@ -17,13 +17,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :crypted_password %>
-    <%= form.text_field :crypted_password, id: :user_crypted_password %>
-  </div>
-
-  <div class="field">
-    <%= form.label :salt %>
-    <%= form.text_field :salt, id: :user_salt %>
+    <%= form.label :password %>
+    <%= form.password_field :password, id: :user_crypted_password %>
   </div>
 
   <div class="actions">
