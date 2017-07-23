@@ -8,6 +8,16 @@ end
 # database
 gem 'mysql2', '~> 0.4.8'
 
+# bootstrap install
+gem 'bootstrap', '~> 4.0.0.alpha3'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'jquery-rails'
+
 # 회원가입
 gem 'sorcery', '~> 0.11.0'
 gem 'bcrypt'
